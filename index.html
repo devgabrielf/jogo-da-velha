@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" preenchimentoHTML="IE=edge">
+    <meta name="viewport" preenchimentoHTML="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="reiniciar"onclick="hash.iniciar()">REINICIAR</div>
+    <div class="tabela"></div>
+
+    <script src="hash.js"></script>
+
+    <script>
+        hash.inicializar(document.querySelector('.tabela'));
+        hash.iniciar();
+    </script>
+</body>
+</html>

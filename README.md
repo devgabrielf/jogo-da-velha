@@ -1,0 +1,1 @@
+Aplicação web com o famoso jogo da velha. As jogadas são feitas por meio do mouse e alternam entre X e O, sempre iniciando pelo X.
