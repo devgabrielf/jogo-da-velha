@@ -23,7 +23,7 @@ body {
     align-items: center;
 }
 
-.reiniciar:hover{
+.reiniciar:active{
     font-size: 1.9em;
 }
 
